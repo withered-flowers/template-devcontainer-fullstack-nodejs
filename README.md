@@ -10,7 +10,7 @@ Requirements:
 
 Docker Container that will be created
 
-- `devcontainer` - Custom NodeJS & TS from Microsoft (based on `devcontainers/typescript-node:1-18-bullseye`)
+- `devcontainer` - Based on Microsoft (`devcontainers/typescript-node:1-18-bullseye`)
 - `db` - postgres as database
 - `adminer` - Database Lookup (exposed port: `8080`)
 - `redis` - Cache

@@ -1,62 +1,37 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "withered-flowers/nodejs-ts",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	// "image": "mcr.microsoft.com/devcontainers/typescript-node:1-18-bullseye"
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root",
-
-  // Custom start here
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"formulahendry.auto-rename-tag",
-				"aaron-bond.better-comments",
-				"wallabyjs.console-ninja",
-				"ms-azuretools.vscode-docker",
-				"usernamehw.errorlens",
-				"dsznajder.es7-react-js-snippets",
-				"github.vscode-github-actions",
-				"github.copilot",
-				"github.copilot-chat",
-				"github.vscode-pull-request-github",
-				"GitHub.github-vscode-theme",
-				"wix.vscode-import-cost",
-				"oderwat.indent-rainbow",
-				"PKief.material-icon-theme",
-				"csstools.postcss",
-				"postman.postman-for-vscode",
-				"unifiedjs.vscode-mdx",
-				"nrwl.angular-console",
-				"pnp.polacode",
-				"esbenp.prettier-vscode",
-				"prisma.prisma",
-				"jock.svg",
-				"bradlc.vscode-tailwindcss",
-				"gruntfuggly.todo-tree"
-			]
-		}
-	},
-
+  "name": "withered-flowers/nodejs-ts",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "wallabyjs.console-ninja",
+        "ms-azuretools.vscode-docker",
+        "usernamehw.errorlens",
+        "dsznajder.es7-react-js-snippets",
+        "github.vscode-github-actions",
+        "github.copilot",
+        "github.copilot-chat",
+        "github.vscode-pull-request-github",
+        "GitHub.github-vscode-theme",
+        "wix.vscode-import-cost",
+        "oderwat.indent-rainbow",
+        "PKief.material-icon-theme",
+        "csstools.postcss",
+        "postman.postman-for-vscode",
+        "unifiedjs.vscode-mdx",
+        "nrwl.angular-console",
+        "pnp.polacode",
+        "esbenp.prettier-vscode",
+        "prisma.prisma",
+        "jock.svg",
+        "bradlc.vscode-tailwindcss",
+        "gruntfuggly.todo-tree"
+      ]
+    }
+  },
   "dockerComposeFile": "docker-compose.yml",
   "service": "devcontainer",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-
-	"forwardPorts": [
-		8080
-	]
+  "forwardPorts": [8080]
 }
